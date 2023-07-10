@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bill Splitter</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="cal_styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Bill Splitter</h1>
+        <h5>Your Handy Bill Splitting Tool</h5>
+        <hr>
+        <div id="calculator">
+            <form>
+                <label>
+                    Total Bill Amount<br>
+                     <input type="text" id="totalBillAmount"><br>
+                </label>
+                <label>
+                    Number of People<br>
+                    <input type="text" id="totalPeople">
+                </label><br>
+                <button type="button" id="calculate">Split Bill</button>
+            </form>
+        </div> 
+        <div id="billSummary">
+            <h2>Bill Summary</h2>
+            <div id="billAmountPerPerson">
+                <label>Amount per Person:</label>
+                <span id="amountPerPerson">$0.00</span>
+            </div>
+        </div>
+    </div> 
+    <script type="text/javascript" src="cal_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    background-color: #f4f4f4;
+    color: #532827;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    margin-top: 5px;
+    color: #6c2726;
+}
+
+hr {
+    border: none;
+    border-top: solid 1px #ddd;
+    margin: 20px 0;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #6c2726;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c2827;
+}
+
+#billSummary {
+    margin-top: 40px;
+    text-align: left;
+}
+
+h2 {
+    margin: 0 0 10px;
+    color: #6c2726;
+}
+
+#billAmountPerPerson {
+    margin-top: 15px;
+}
+
+#billAmountPerPerson label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#amountPerPerson {
+    font-size: 24px;
+    color: #532827;
+}
